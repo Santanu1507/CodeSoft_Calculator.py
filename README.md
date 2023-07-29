@@ -1,11 +1,12 @@
 # Calculator App
 
-The Calculator App is a simple graphical calculator built using the tkinter library in Python. It provides basic arithmetic operations, square root, and clear functionalities to perform calculations.
+The Calculator App is a simple graphical calculator built using the tkinter library in Python. It provides basic arithmetic operations, square root, and the square of a number functionalities to perform calculations.
 
 ## Features
 
 - Basic arithmetic operations: Addition, Subtraction, Multiplication, Division
 - Square root calculation
+- Square of a number calculation
 - Clear current entry or entire expression
 - Error handling for invalid input or calculations
 - User-friendly interface with colorful buttons
@@ -37,21 +38,27 @@ The Calculator App is a simple graphical calculator built using the tkinter libr
    - Click on the `√` button.
    - The result will be displayed in the entry area.
 
-4. **Clear Entry (CE)**: To clear the current entry, click on the `CE` button.
+4. **Square of a Number (x^2)**: To calculate the square of a number, follow these steps:
+   - Enter the number in the entry area.
+   - Click on the `x^2` button.
+   - The result will be displayed in the entry area.
 
-5. **Clear All (C)**: To clear the entire expression, click on the `C` button.
+5. **Clear Entry (CE)**: To clear the current entry, click on the `CE` button.
 
-6. **Decimal Point**: To input decimal numbers, click on the `.` button. Only one decimal point is allowed per entry.
+6. **Clear All (C)**: To clear the entire expression, click on the `C` button.
 
-7. **Result Button (=)**: To perform the calculation, click on the `=` button. The result will be displayed in the entry area.
+7. **Decimal Point**: To input decimal numbers, click on the `.` button. Only one decimal point is allowed per entry.
+
+8. **Result Button (=)**: To perform the calculation, click on the `=` button. The result will be displayed in the entry area.
 
 ## Example
 
-Suppose you want to calculate the square root of a number and perform some basic arithmetic operations. Follow these steps:
+Suppose you want to calculate the square root and square of a number, and perform some basic arithmetic operations. Follow these steps:
 
-1. Enter the number: `25`
-2. Click on the `√` button. The result `5.0` will be displayed.
-3. Perform arithmetic operations as needed. For example:
+1. Enter the number: `9`
+2. Click on the `√` button. The result `3.0` will be displayed.
+3. Click on the `x^2` button. The result `9.0` will be displayed.
+4. Perform arithmetic operations as needed. For example:
    - `5 + 3`: Click `5`, `+`, `3`, and `=`. The result `8.0` will be displayed.
    - `8 * 2`: Click `*`, `2`, and `=`. The result `16.0` will be displayed.
 
